@@ -3,7 +3,7 @@
 
 
 
-## Planung
+## Planung - 09.01.2026
 
 &nbsp;
 
@@ -43,5 +43,46 @@ Da der Fokus auf einer Technologie liegt, welche mich so gut wie möglich auf me
 Ich entscheide mich für React.js, da mir dies aus meiner Sicht die meisten Vorteile gibt für weitere Projekte und es sehr weit verbreitet ist. Wenn ich React beherrsche, kann ich Three.js zusammen mit React anwenden. Ausserdem haben andere Frameworks wie Vue oder Angular die selbe Denkweise wie React, heisst, wenn ich React verstehe, fällt es mir einfacher, die anderen Frameworks zu lernen, da ich das Prinzip einmal schon verstanden habe.
 
 Der Grund wieso ich nicht Godot gewählt habe, ist, da ich in der letzten Lernperiode erst gerade mit Unity gearbeitet habe und nicht direkt noch einmal eine neue Game Engine lernen will.        
-     
 
+&nbsp;
+
+**Heute Habe ich**
+Ich habe ein neues „helloWorld“-Projekt erstellt. Der grösste Aufwand war das Erstellen des Projektes und das Installieren der richtigen Pakete. Als dann die App lief, konnte ich schon anfangen, etwas herumzuprobieren und zu testen, wie sich React verhält. Danach habe ich nach einem geeigneten Übungsprojekt gesucht für die kommenden Sitzungen.
+
+Ich habe nach einem Projekt gesucht, welches mich anspricht, jedoch waren die meisten gut erklärt und nur aus Code bestehend, deshalb habe ich mich für das von React selber bereitgestellte Beginner-Projekt „Tic-Tac-Toe“ entschieden. In diesem Tutorial wird erklärt, wie die Einzelheiten von React funktionieren. Da das Ziel das Lernen ist und nicht, dass unbedingt ein cooles Projekt im Fokus steht, war mir der „Verstehen“-Part wichtiger. (https://react.dev/learn/tutorial-tic-tac-toe)
+
+&nbsp;
+
+&nbsp;
+
+## 16.01.2026
+
+
+**Arbeitspakete**
+- [ ] Erstellen des statischen Spielfeldes (3x3).
+- [ ] Die Logik für die einzlenen Felder implementieren, damit erkannt wird wann es aufgewählt ist
+- [ ] Die Möglichkeit hinzufügen, dass dem Feld ein "X" hinzugefügt wird wenn es ausgewählt wird. 
+- [ ] Klick Funktion damit das Programm reagiert wenn man mit der Maus auf ein Quadrat klickt. 
+
+
+&nbsp;
+
+**Heute habe ich...**
+
+&nbsp;
+
+&nbsp;
+
+## 23.01.2026
+
+
+**Arbeitspakete**
+- [ ] -
+- [ ] -
+- [ ] -
+- [ ] -
+
+
+&nbsp;
+
+**Heute habe ich...**      
