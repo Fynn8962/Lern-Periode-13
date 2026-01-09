@@ -46,7 +46,7 @@ Der Grund wieso ich nicht Godot gewählt habe, ist, da ich in der letzten Lernpe
 
 &nbsp;
 
-**Heute Habe ich...**                                    
+### Heute Habe ich...                                 
 Ich habe ein neues „helloWorld“-Projekt erstellt. Der grösste Aufwand war das Erstellen des Projektes und das Installieren der richtigen Pakete. Als dann die App lief, konnte ich schon anfangen, etwas herumzuprobieren und zu testen, wie sich React verhält. Danach habe ich nach einem geeigneten Übungsprojekt gesucht für die kommenden Sitzungen.
 
 Ich habe nach einem Projekt gesucht, welches mich anspricht, jedoch waren die meisten gut erklärt und nur aus Code bestehend, deshalb habe ich mich für das von React selber bereitgestellte Beginner-Projekt „Tic-Tac-Toe“ entschieden. In diesem Tutorial wird erklärt, wie die Einzelheiten von React funktionieren. Da das Ziel das Lernen ist und nicht, dass unbedingt ein cooles Projekt im Fokus steht, war mir der „Verstehen“-Part wichtiger. (https://react.dev/learn/tutorial-tic-tac-toe)
