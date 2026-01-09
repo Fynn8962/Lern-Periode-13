@@ -19,11 +19,15 @@ Da der Fokus auf einer Technologie liegt, welche mich so gut wie möglich auf me
 - React besitzt eine grosse Anzahl an Tutorials, Dokumentation usw., was das Finden eines Einsteigerprojekts einfach macht. (https://www.geeksforgeeks.org/reactjs/reactjs-projects/)              
 - Ich habe schon mal mittels React Native eine Mobilapplikation erstellt, jedoch noch keine Webapplikation mit HTML/CSS und React.                 
 
+&nbsp;
 
 
 **2. Three.js**   
 - Ist eine JS-Library, mit welcher man 3D-Renderings erstellen kann in Web-Applikationen. (https://www.geeksforgeeks.org/javascript/three-js/)             
 - Three.js kann man in React benutzen, es gibt dafür eine Bibliothek. (https://r3f.docs.pmnd.rs/getting-started/introduction)
+
+&nbsp;
+
 
 **3. Godot**                   
 - Game Engine für Game-Design und auch XR (VR/AR)         
@@ -31,8 +35,8 @@ Da der Fokus auf einer Technologie liegt, welche mich so gut wie möglich auf me
 - Ist ähnlich wie die Unity Engine, mit welcher ich schon gearbeitet habe.                 
            
 
-&nbsp;
 
+---
 
 ### Entscheidung            
 
