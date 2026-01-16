@@ -59,15 +59,17 @@ Ich habe nach einem Projekt gesucht, welches mich anspricht, jedoch waren die me
 
 
 **Arbeitspakete**
-- [ ] Erstellen des statischen Spielfeldes (3x3).
-- [ ] Die Logik für die einzlenen Felder implementieren, damit erkannt wird wann es aufgewählt ist
-- [ ] Die Möglichkeit hinzufügen, dass dem Feld ein "X" hinzugefügt wird wenn es ausgewählt wird. 
-- [ ] Klick Funktion damit das Programm reagiert wenn man mit der Maus auf ein Quadrat klickt. 
+- [x] Erstellen des statischen Spielfeldes (3x3).
+- [x] Die Logik für die einzlenen Felder implementieren, damit erkannt wird wann es aufgewählt ist
+- [x] Die Möglichkeit hinzufügen, dass dem Feld ein "X" hinzugefügt wird wenn es ausgewählt wird. 
+- [x] Klick Funktion damit das Programm reagiert wenn man mit der Maus auf ein Quadrat klickt. 
 
 
 &nbsp;
 
 **Heute habe ich...**
+Heute habe ich mit dem Tutorial angefangen und gelernt, was Components, State, Props usw. in React sind. Ich habe das Spielfeld implementiert und möglich gemacht, dass durch einen Klick des Users der State verändert wird und ein X im Feld angezeigt wird. Parallel dazu habe ich mit Notizen angefangen, um die Dinge, die ich gelernt habe, zu verinnerlichen.
+        
 
 &nbsp;
 
@@ -77,10 +79,11 @@ Ich habe nach einem Projekt gesucht, welches mich anspricht, jedoch waren die me
 
 
 **Arbeitspakete**
-- [ ] -
-- [ ] -
-- [ ] -
-- [ ] -
+- [ ] Den Spielstand zentral im "Board" speichern, statt in jedem einzelnen Feld.
+- [ ] Die Felder so umbauen, dass sie ihren Wert vom Board empfangen und nicht mehr selbst speichern.
+- [ ] Programmieren, dass sich "X" und "O" bei jedem Klick automatisch abwechseln.
+- [ ] Eine Sperre einbauen, damit man nicht auf bereits belegte Felder klicken kann.
+- [ ] Eine Text-Anzeige über dem Spielfeld hinzufügen: "Nächster Spieler" oder "Gewinner".
 
 
 &nbsp;
