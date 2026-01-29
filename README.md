@@ -100,13 +100,34 @@ Als erstes habe ich die Beziehung zwischen Board und den Squares überarbeitet. 
 
 
 **Arbeitspakete*** 
-- [ ] Die Spielhistorie (Spielzüge) speichern
-- [ ] Es möglich machen, dass Züge angezeigt werden können.
-- [ ] Es möglich machen, zu diesen Zügen zurückzuspringen
-- [ ] Zwischeneinstieg: es möglich machen, von einem beliebigen Spielzug erneut weiterzuspielen und alle anderen Züge zu überschreiben
+- [x] Die Spielhistorie (Spielzüge) speichern
+- [x] Es möglich machen, dass Züge angezeigt werden können.
+- [x] Es möglich machen, zu diesen Zügen zurückzuspringen
+- [x] Zwischeneinstieg: es möglich machen, von einem beliebigen Spielzug erneut weiterzuspielen und alle anderen Züge zu überschreiben
 
 
 
 &nbsp;
 
 **Heute habe ich...**    
+Ich habe mich um den letzten Teil des Tutorials gekümmert, das Speichern der Spielzüge und die Möglichkeit, zwischen den Spielzügen hin und her zu springen. Jeder Spielzug wurde in einer Kopie des vorherigen Spielzuges gespeichert, somit konnte man von jedem Spielzug aus erneut starten zu spielen.
+
+
+&nbsp;
+
+&nbsp;
+
+## Reflexion
+Das Tutorial hat mir ein Grundverständnis davon gegeben, wie man React benutzt und welche Möglichkeiten es bietet, die normales Web-Development nicht hat. Durch das Tutorial war das Lernen verständlicher und hat Spass gemacht. Leider konnte ich keine eigenen Ideen zum Tutorialprojekt beitragen, da ich nebenbei noch Notizen gemacht habe zu Funktionen von React, welche ich als eigenes Journal für später verwenden kann. Dadurch kann ich das Gelernte schnell wieder aufrufen, wenn ich etwas nicht mehr weiss.
+
+&nbsp;
+
+
+---
+
+&nbsp;
+
+# Tutorial
+
+
+
