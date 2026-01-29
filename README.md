@@ -79,13 +79,34 @@ Heute habe ich mit dem Tutorial angefangen und gelernt, was Components, State, P
 
 
 **Arbeitspakete**
-- [ ] Den Spielstand zentral im "Board" speichern, statt in jedem einzelnen Feld.
-- [ ] Die Felder so umbauen, dass sie ihren Wert vom Board empfangen und nicht mehr selbst speichern.
-- [ ] Programmieren, dass sich "X" und "O" bei jedem Klick automatisch abwechseln.
-- [ ] Eine Sperre einbauen, damit man nicht auf bereits belegte Felder klicken kann.
-- [ ] Eine Text-Anzeige über dem Spielfeld hinzufügen: "Nächster Spieler" oder "Gewinner".
+- [x] Den Spielstand zentral im "Board" speichern, statt in jedem einzelnen Feld.
+- [x] Die Felder so umbauen, dass sie ihren Wert vom Board empfangen und nicht mehr selbst speichern.
+- [x] Programmieren, dass sich "X" und "O" bei jedem Klick automatisch abwechseln.
+- [x] Eine Sperre einbauen, damit man nicht auf bereits belegte Felder klicken kann.
+- [x] Eine Text-Anzeige über dem Spielfeld hinzufügen: "Nächster Spieler" oder "Gewinner".
 
 
 &nbsp;
 
 **Heute habe ich...**      
+Als erstes habe ich die Beziehung zwischen Board und den Squares überarbeitet. Da Square nur ein Child von Board ist, hat Board die ganze Logik und Square soll nur mit einer onClick-Funktion die Funktionen in Board auslösen. Dadurch ist Square unabhängig von der gesamten Zustandsverwaltung. Anschliessend habe ich in der handleClick-Funktion das Abwechseln zwischen „X“ und „O“ eingefügt sowie das Überprüfen, ob jemand gewonnen hat. Danach habe ich zusätzlich noch eine Ausgabe hinzugefügt, die den Gewinner ausgibt.
+        
+
+&nbsp;
+
+&nbsp;
+
+## 30.01.2026
+
+
+**Arbeitspakete*** 
+- [ ] Die Spielhistorie (Spielzüge) speichern
+- [ ] Es möglich machen, dass Züge angezeigt werden können.
+- [ ] Es möglich machen, zu diesen Zügen zurückzuspringen
+- [ ] Zwischeneinstieg: es möglich machen, von einem beliebigen Spielzug erneut weiterzuspielen und alle anderen Züge zu überschreiben
+
+
+
+&nbsp;
+
+**Heute habe ich...**    
