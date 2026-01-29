@@ -128,10 +128,10 @@ Das Tutorial hat mir ein Grundverständnis davon gegeben, wie man React benutzt 
 &nbsp;
 
 # Tutorial
-Das ist ein erstelles Tutorial welches kurz im Bezug zum Tic-Tac-Toe Tutorial gewisse Funktionen des Codes erklärt. 
+Das ist ein erstelles Tutorial welches kurz im Bezug zum Tic-Tac-Toe Tutorial gewisse Funktionen des Codes erklärt.                     
 [ReactTutorialAddition.md](https://github.com/Fynn8962/Lern-Periode-13/blob/main/ReactTutorialAddition.md)
 
 # Cheat Sheet
-In einer Word Datei habe ich im Laufe des Prozesses alle neuen Funktionen und Dinge die ich nicht kannte Dokumentier um diese besser zu verstehen. Das schreiben in eigenen Worten und unterlegen mit Screenshots half dabei beim Lernprozess von React. 
+In einer Word Datei habe ich im Laufe des Prozesses alle neuen Funktionen und Dinge die ich nicht kannte Dokumentier um diese besser zu verstehen. Das schreiben in eigenen Worten und unterlegen mit Screenshots half dabei beim Lernprozess von React.             
 [React.CheatSheet.pdf](https://github.com/Fynn8962/Lern-Periode-13/blob/main/ReactCheatSheet.pdf)
 
