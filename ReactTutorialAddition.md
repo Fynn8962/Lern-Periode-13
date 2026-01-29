@@ -2,7 +2,7 @@ Tutorial: Building a Tic-Tac-Toe Game with React
 
 ## 1. Introduction
 
-**Goal**: This is an extra note for the official React Tic-Tac-Toe tutorial (https://react.dev/learn/tutorial-tic-tac-toe). I’m putting the code into my own words to make sure I really get it and to keep track of my progress. The whole Code is uploaded in the repository [Lern-Periode 13](https://github.com/Fynn8962/Lern-Periode-13)
+**Goal**: This is an extra note for the official React Tic-Tac-Toe tutorial (https://react.dev/learn/tutorial-tic-tac-toe). I’m putting the code into my own words to make sure I really get it and to keep track of my progress. The whole code is uploaded in the repository [Lern-Periode 13](https://github.com/Fynn8962/Lern-Periode-13)
 
 
 &nbsp;
@@ -22,13 +22,13 @@ function Square({ value, onSquareClick }) {
 }
 ```
 
-Explaination: The `Square` is a "dumb" component. It does not store any data itself. It  relies entierly on Props passed down from the parent:
+Explanation: The `Square` is a "dumb" component. It does not store any data itself. It relies entirely on props passed down from the parent:
 
-- `value`: Determines what to show ('X', 'O' or null)
+- `value`: Determines what to show ('X', 'O' or null).
 
-- `onSquareClick`: A function used to communicate with the parents (Board) when clicked.
+- `onSquareClick`: A function used to communicate with the parent (Board) when clicked.
 
-- Note on Naming: We use onSquareClick (prop) and onClick (HTML attribute). THis sperates the React event logic from the browser's native event
+- Note on Naming: We use `onSquareClick` (prop) and `onClick` (HTML attribute). This separates the React event logic from the browser's native event.
 
 
 
@@ -53,18 +53,18 @@ return (
 
 Explanation: The `Board` receives the state from the `Game` component.
 
-- The Arrow Function `() =>` : We pass `() => handleClick(0)`instead of ``handleClick(0)`.
+- The Arrow Function `() =>`: We pass `() => handleClick(0)` instead of `handleClick(0)`.
   
-  - WHy? If we wrote `handleClick(0)`, JavaScript would execute the function immediately during rendering, causing an infite loop of re-renders.
+  - Why? If we wrote `handleClick(0)`, JavaScript would execute the function immediately during rendering, causing an infinite loop of re-renders.
   
-  - The arrow function acts as awrapper (a brake).
+  - The arrow function acts as a wrapper (a brake).
 
 
 &nbsp;
 
 
 
-### 3. Game Logic & Immunability:
+### 3. Game Logic & Immutability:
 
 ```
 function handleClick(i) {
@@ -90,11 +90,13 @@ function handleClick(i) {
 
 Explanation:
 
-- Immunability (`.slice()`): We do not modify the `squares` array directly. Instead, we create a copy using `.slice()`. This is important for the "Time Travel" feature, as it preserves previous versions of the board uncahnged.
+Explanation:
 
-- Toggling Players: We use the logic `If (xIsNext` to determine who plays next. 
+- Immutability (`.slice()`): We do not modify the `squares` array directly. Instead, we create a copy using `.slice()`. This is important for the "Time Travel" feature, as it preserves previous versions of the board unchanged.
 
-- Updating States: FInally we call `onPlay`, which sends the new data up to the `Game`component.y(nextSquares);
+- Toggling Players: We use the logic `if (xIsNext)` to determine who plays next.
+
+- Updating States: Finally, we call `onPlay`, which sends the new data up to the `Game` component.
   
 &nbsp;
 
@@ -119,13 +121,13 @@ function calculateWinner(squares) {
 }
 ```
 
-Explanation: This function acts a the referee
+Explanation: This function acts as the referee.
 
 - It defines all 8 winning lines (rows, columns, diagonals).
 
-- It loops trhough these lines and checks if three squares contain the same symbol (and are not null)
+- It loops through these lines and checks if three squares contain the same symbol (and are not null).
 
-- If a match is found, it returns the winner; otherwise it returns `null`turn null;
+- If a match is found, it returns the winner; otherwise, it returns `null`.
   
 
 
@@ -156,9 +158,9 @@ export default function Game() {
 }
 ```
 
-- Single Source of Truth: THe `Game` component holds the `history` (and array of all past board states).
+- Single Source of Truth: The `Game` component holds the `history` (an array of all past board states).
 
-- Spread Syntax (`...`): In `handlePlay`, we use `[...history, nextSqaures]` to create a new array that contains all previous moves plus the new one. This triggers a re-render in React.
+- Spread Syntax (`...`): In `handlePlay`, we use `[...history, nextSquares]` to create a new array that contains all previous moves plus the new one. This triggers a re-render in React.
   
 &nbsp;
 
@@ -183,7 +185,7 @@ Explanation:
 
 - `.map()` Method: Transforms the raw data (history array) into visual UI elements (buttons).
 
-- `key` Property: We assign a uniqe `key={move}` to each list item. This acts like an ID card. helping React distinguish between items when the list is udpated or re-ordered, ensuring efficient rendering. 
+- `key` Property: We assign a unique `key={move}` to each list item. This acts like an ID card, helping React distinguish between items when the list is updated or re-ordered, ensuring efficient rendering.
 
 
 
