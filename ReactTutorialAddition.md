@@ -5,6 +5,7 @@ Tutorial: Building a Tic-Tac-Toe Game with React
 **Goal**: This is an extra note for the official React Tic-Tac-Toe tutorial (https://react.dev/learn/tutorial-tic-tac-toe). I’m putting the code into my own words to make sure I really get it and to keep track of my progress. The whole Code is uploaded in the repository [Lern-Periode 13](https://github.com/Fynn8962/Lern-Periode-13)
 
 
+&nbsp;
 
 
 
@@ -31,6 +32,7 @@ Explaination: The `Square` is a "dumb" component. It does not store any data its
 
 
 
+&nbsp;
 
 
 
@@ -58,6 +60,7 @@ Explanation: The `Board` receives the state from the `Game` component.
   - The arrow function acts as awrapper (a brake).
 
 
+&nbsp;
 
 
 
@@ -93,6 +96,7 @@ Explanation:
 
 - Updating States: FInally we call `onPlay`, which sends the new data up to the `Game`component.y(nextSquares);
   
+&nbsp;
 
 
 
@@ -125,6 +129,7 @@ Explanation: This function acts a the referee
   
 
 
+&nbsp;
 
 
 
@@ -155,6 +160,7 @@ export default function Game() {
 
 - Spread Syntax (`...`): In `handlePlay`, we use `[...history, nextSqaures]` to create a new array that contains all previous moves plus the new one. This triggers a re-render in React.
   
+&nbsp;
 
 
 
