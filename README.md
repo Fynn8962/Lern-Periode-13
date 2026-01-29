@@ -13,7 +13,7 @@ Am Schluss habe ich noch ein Tutorial erstellt, in welchem ich kurz in Bezug zum
 [ReactTutorialAddition.md](https://github.com/Fynn8962/Lern-Periode-13/blob/main/ReactTutorialAddition.md)
 
 # Cheat Sheet
-09.01.2026 - 30.01.2026
+**09.01.2026 - 30.01.2026**                  
 In einer Word-Datei habe ich im Laufe des Prozesses alle neuen Funktionen und Dinge, die ich nicht kannte, dokumentiert, um diese besser zu verstehen. Das Schreiben in eigenen Worten und Unterlegen mit Screenshots half dabei beim Lernprozess von React. Dies war neben dem Coden der grösste Aufwand.                       
 [React.CheatSheet.pdf](https://github.com/Fynn8962/Lern-Periode-13/blob/main/ReactCheatSheet.pdf)
 
