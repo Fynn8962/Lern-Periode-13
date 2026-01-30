@@ -1,3 +1,7 @@
+---
+title: Tutorial
+---
+
 Tutorial: Building a Tic-Tac-Toe Game with React
 
 ## 1. Introduction
