@@ -10,7 +10,7 @@ Der Code des Tic-Tac-Toe-Projekts mit eigenen Kommentaren, welche für mein Vers
 
 # Tutorial
 Am Schluss habe ich noch ein Tutorial erstellt, in welchem ich kurz in Bezug zum Tic-Tac-Toe-Tutorial gewisse Funktionen des Codes erklärt.
-[ReactTutorialAddition.md](https://github.com/Fynn8962/Lern-Periode-13/blob/main/docs/ReactTutorialAddition.md)
+[ReactTutorialAddition.md](https://fynn8962.github.io/Lern-Periode-13/ReactTutorialAddition)
 
 # Cheat Sheet
 ### 09.01.2026 - 30.01.2026           
