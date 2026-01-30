@@ -8,6 +8,8 @@ Tutorial: Building a Tic-Tac-Toe Game with React
 
 **Goal**: This is an extra note for the official React Tic-Tac-Toe tutorial (https://react.dev/learn/tutorial-tic-tac-toe). I’m putting the code into my own words to make sure I really get it and to keep track of my progress. The whole code is uploaded in the repository [Lern-Periode 13](https://github.com/Fynn8962/Lern-Periode-13)
 
+**Experience needed**: HTML, CSS, JavaScript and knowledge of variables and functions
+
 
 &nbsp;
 
