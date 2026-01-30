@@ -10,12 +10,12 @@ Der Code des Tic-Tac-Toe-Projekts mit eigenen Kommentaren, welche für mein Vers
 
 # Tutorial
 Am Schluss habe ich noch ein Tutorial erstellt, in welchem ich kurz in Bezug zum Tic-Tac-Toe-Tutorial gewisse Funktionen des Codes erklärt.
-[ReactTutorialAddition.md](https://github.com/Fynn8962/Lern-Periode-13/blob/main/ReactTutorialAddition.md)
+[ReactTutorialAddition.md](https://github.com/Fynn8962/Lern-Periode-13/blob/main/docs/ReactTutorialAddition.md)
 
 # Cheat Sheet
 ### 09.01.2026 - 30.01.2026           
 In einer Word-Datei habe ich im Laufe des Prozesses alle neuen Funktionen und Dinge, die ich nicht kannte, dokumentiert, um diese besser zu verstehen. Das Schreiben in eigenen Worten und Unterlegen mit Screenshots half dabei beim Lernprozess von React. Dies war neben dem Coden der grösste Aufwand.                       
-[React.CheatSheet.pdf](https://github.com/Fynn8962/Lern-Periode-13/blob/main/ReactCheatSheet.pdf)
+[React.CheatSheet.pdf](https://github.com/Fynn8962/Lern-Periode-13/blob/main/docs/ReactCheatSheet.pdf)
 
 
 ---
